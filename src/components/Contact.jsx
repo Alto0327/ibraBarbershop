@@ -47,24 +47,22 @@ function Contact() {
             <div className="info-item">
               <h3 className="info-title">Address</h3>
               <p className="info-text">
-                123 Main Street<br />
-                Downtown City, ST 12345
+               635 Barton St E #1<br /> L8L 3A1, Hamilton, ON
               </p>
             </div>
 
             <div className="info-item">
               <h3 className="info-title">Phone</h3>
               <p className="info-text">
-                <a href="tel:+15551234567">(555) 123-4567</a>
+                <a href="tel:+2268983836">(226) 898-3836</a>
               </p>
             </div>
 
             <div className="info-item">
               <h3 className="info-title">Hours</h3>
               <p className="info-text">
-                Monday - Friday: 9:00 AM - 7:00 PM<br />
-                Saturday: 9:00 AM - 6:00 PM<br />
-                Sunday: Closed
+                Mon-Sat: 9:00 AM - 7:00 PM<br />
+                Sun: 11:00 AM - 6:00 PM
               </p>
             </div>
 

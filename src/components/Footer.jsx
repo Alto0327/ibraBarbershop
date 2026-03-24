@@ -46,7 +46,7 @@ function Footer() {
           <div className="footer-section">
             <h4 className="footer-subtitle">Contact</h4>
             <p className="footer-text small">
-              <a href="tel:+15551234567">(555) 123-4567</a><br />
+               <a href="tel:+2268983836">(226) 898-3836</a><br />
               <a href="mailto:info@ibrabarbershop.com">info@ibrabarbershop.com</a><br />
               635 Barton St E #1, L8L 3A1, Hamilton, ON
             </p>
