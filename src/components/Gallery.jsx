@@ -16,7 +16,7 @@ function Gallery() {
     },
     {
       id: 2,
-      title: 'Premium Cut',
+      title: 'Line Work',
       src: haircut2,
     },
     {
@@ -26,7 +26,7 @@ function Gallery() {
     },
     {
       id: 4,
-      title: 'Line Work',
+      title: 'Precision Cuts',
       src: haircut4,
     },
     {
