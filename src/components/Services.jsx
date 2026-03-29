@@ -6,9 +6,9 @@ function Services() {
       id: 'haircuts',
       title: 'Haircuts',
       services: [
-        { name: 'Classic Cut', price: '$35', description: 'Precision fade and finishing details.' },
-        { name: 'Skin Fade', price: '$42', description: 'High contrast fade with clean lines.' },
-        { name: 'Taper Fade', price: '$40', description: 'Subtle taper with sharp detail.' },
+        { name: 'Classic Cut', price: '$35', description: 'Classic men’s haircut with clean edges and professional styling in Hamilton.' },
+        { name: 'Skin Fade', price: '$42', description: 'Precision skin fade haircut with crisp linework and smooth transitions.' },
+        { name: 'Taper Fade', price: '$40', description: 'Modern taper fade cut for polished, low-maintenance wear.' },
       ],
     },
     {
@@ -41,11 +41,11 @@ function Services() {
   ];
 
   return (
-    <section id="services" className="services">
+    <section id="services" className="services" aria-labelledby="services-heading">
       <div className="services-container">
-        <h2 className="sections-title">Our Services</h2>
+        <h2 id="services-heading" className="sections-title">Our Services</h2>
         <p className="section-subtitle">Organized packages for quick decision-making.</p>
-        <div className="service-category-grid">
+        <div className="service-category-grid" role="region" aria-label="Service offerings">
           {categories.map((category) => (
             <div key={category.id} className="service-category-card">
               <h3 className="category-title">{category.title}</h3>

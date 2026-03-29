@@ -12,10 +12,10 @@ function About() {
           </p>
           <div className="about-text">
   <p>
-    Ibra Barbershop is a fresh addition to the Hamilton community, bringing a modern approach to classic barbering. In just a few months, we've focused on delivering clean cuts, sharp details, and a consistent experience every time you sit in the chair.
+    Ibra Barbershop is a trusted Hamilton barber shop for men’s haircuts, fade haircuts, beard trims, beard lineups, and eyebrow grooming. We deliver premium service with consistency and sharp finish on every visit.
   </p>
   <p>
-    We’re building our name through quality work and real client satisfaction. Every haircut is treated with precision and care—because reputation isn’t claimed, it’s earned.
+    Our team specializes in barber services for Hamilton residents and visitors looking for clean fades, classic cuts, and precise beard detailing. We aim to be the top barber near me option for local men’s grooming.
   </p>
 </div>
         </div>

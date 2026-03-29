@@ -21,8 +21,8 @@ function Navbar() {
   };
 
   return (
-    <nav className="navbar">
-      <div className="navbar-container">
+    <nav className="navbar" aria-label="Primary navigation">
+      <div className="navbar-container" role="navigation">
         <div className="navbar-brand">
           <a href="#home" onClick={handleNavClick} className="brand-link">
             <img src={IbraLogo} alt="Ibra Barbershop Logo" className='brand-icon'/>
