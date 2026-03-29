@@ -7,17 +7,15 @@ function About() {
       <div className="about-container">
         <div className="about-content">
           <h2 className="section-title">About Ibra Barbershop</h2>
-          <p className="section-subtitle">
-            Your destination for premium grooming and timeless style
-          </p>
+          <p className="section-subtitle">Hamilton’s local barber shop for modern haircuts and grooming</p>
           <div className="about-text">
-  <p>
-    Ibra Barbershop is a trusted Hamilton barber shop for men’s haircuts, fade haircuts, beard trims, beard lineups, and eyebrow grooming. We deliver premium service with consistency and sharp finish on every visit.
-  </p>
-  <p>
-    Our team specializes in barber services for Hamilton residents and visitors looking for clean fades, classic cuts, and precise beard detailing. We aim to be the top barber near me option for local men’s grooming.
-  </p>
-</div>
+            <p>
+              Located in Hamilton, Ibra Barbershop is a real neighborhood barbershop focused on haircuts, fades, beard trims, eyebrow grooming, and combo service packages. Our crew combines tradition and fresh style to keep every client looking sharp.
+            </p>
+            <p>
+              We deliver consistent, professional service with straightforward pricing and attention to detail. Men in Hamilton choose us for dependable fade work, exact beard lines, and a premium experience that looks and feels like a local shop, not generic filler.
+            </p>
+          </div>
         </div>
 <div className="about-image">
   <img

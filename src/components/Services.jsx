@@ -5,37 +5,41 @@ function Services() {
     {
       id: 'haircuts',
       title: 'Haircuts',
+      description: 'Barber-quality haircuts and fades for men in Hamilton, tuned to your personal style.',
       services: [
-        { name: 'Classic Cut', price: '$35', description: 'Classic men’s haircut with clean edges and professional styling in Hamilton.' },
-        { name: 'Skin Fade', price: '$42', description: 'Precision skin fade haircut with crisp linework and smooth transitions.' },
-        { name: 'Taper Fade', price: '$40', description: 'Modern taper fade cut for polished, low-maintenance wear.' },
+        { name: 'Classic Cut', price: '$35', description: 'Hamilton barber classic with clean edges and polished finish.' },
+        { name: 'Skin Fade', price: '$42', description: 'Sharp skin fade with crisp transitions and haircut detail in Hamilton.' },
+        { name: 'Taper Fade', price: '$40', description: 'Modern taper fade designed for polished daily wear.' },
       ],
     },
     {
       id: 'eyebrows',
       title: 'Eyebrows',
+      description: 'Detailed eyebrow grooming to complete your look after a Hamilton haircut or beard trim.',
       services: [
-        { name: 'Eyebrow Cleanup', price: '$15', description: 'Neat shaping and grooming.' },
-        { name: 'Eyebrow Threading', price: '$15', description: 'Precise hair removal for clean lines.' },
-        { name: 'Eyebrow Shaping', price: '$20', description: 'Structured arch and outline.' },
+        { name: 'Eyebrow Cleanup', price: '$15', description: 'Neat eyebrow cleanup to sharpen your profile.' },
+        { name: 'Eyebrow Threading', price: '$15', description: 'Precise threading for crisp, natural brow lines.' },
+        { name: 'Eyebrow Shaping', price: '$20', description: 'Fine shaping for balanced proportions and clean style.' },
       ],
     },
     {
       id: 'beard',
       title: 'Beard',
+      description: 'Hamilton beard trim and lineup services that reinforce your haircut with a sharp, masculine finish.',
       services: [
-        { name: 'Beard Trim', price: '$22', description: 'Shape and trim for a polished finish.' },
-        { name: 'Beard Line Up', price: '$28', description: 'Sharp edge defining and cleanup.' },
-        { name: 'Hot Towel Beard Service', price: '$35', description: 'Warm towel, conditioning, and styling.' },
+        { name: 'Beard Trim', price: '$22', description: 'Detailed beard trim for clean length and texture.' },
+        { name: 'Beard Line Up', price: '$28', description: 'Barber-precise edges and neckline cleanup.' },
+        { name: 'Hot Towel Beard Service', price: '$35', description: 'Relaxing warm towel, conditioning, and precision shading.' },
       ],
     },
     {
       id: 'combo',
       title: 'Combo',
+      description: 'Bundle your Hamilton barber visit with multiple services for a consistent premium grooming experience.',
       services: [
-        { name: 'Haircut + Beard', price: '$60', description: 'Complete head-to-face groom.' },
-        { name: 'Haircut + Eyebrows', price: '$57', description: 'Precision styling and eyebrow sculpting.' },
-        { name: 'Full Grooming Package', price: '$95', description: 'Haircut, beard, eyebrows, and luxury finish.' },
+        { name: 'Haircut + Beard', price: '$60', description: 'Complete package for haircut and beard trim in one appointment.' },
+        { name: 'Haircut + Eyebrows', price: '$57', description: 'Haircut with eyebrow grooming for a polished, refined look.' },
+        { name: 'Full Grooming Package', price: '$95', description: 'Haircut, beard, eyebrows, and a premium finish for full grooming control.' },
       ],
     },
   ];
@@ -49,6 +53,7 @@ function Services() {
           {categories.map((category) => (
             <div key={category.id} className="service-category-card">
               <h3 className="category-title">{category.title}</h3>
+              {category.description && <p className="category-description">{category.description}</p>}
               <ul className="service-list">
                 {category.services.map((item) => (
                   <li key={item.name} className="service-item">
