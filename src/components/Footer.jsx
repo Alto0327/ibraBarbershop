@@ -13,14 +13,11 @@ function Footer() {
               Premium grooming and barbering services for the modern gentleman.
             </p>
             <div className="social-links">
-              <a href="https://facebook.com" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
-                FB
-              </a>
-              <a href="https://instagram.com" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/ibra_barber_shop1/" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
                 IG
               </a>
-              <a href="https://twitter.com" aria-label="Twitter" target="_blank" rel="noopener noreferrer">
-                TW
+              <a href="https://www.tiktok.com/@ibrabarbershop0" aria-label="TikTok" target="_blank" rel="noopener noreferrer">
+                TT
               </a>
             </div>
           </div>
@@ -47,7 +44,7 @@ function Footer() {
             <h4 className="footer-subtitle">Contact</h4>
             <p className="footer-text small">
                <a href="tel:+2268983836">(226) 898-3836</a><br />
-              <a href="mailto:info@ibrabarbershop.com">info@ibrabarbershop.com</a><br />
+              <a href="mailto:ibrahemhejo3@gmail.com">ibrahemhejo3@gmail.com</a><br />
               635 Barton St E #1, L8L 3A1, Hamilton, ON
             </p>
           </div>

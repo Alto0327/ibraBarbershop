@@ -69,8 +69,8 @@ function Contact() {
             <div className="info-item">
               <h3 className="info-title">Email</h3>
               <p className="info-text">
-                <a href="mailto:info@ibrabarbershop.com">
-                  info@ibrabarbershop.com
+                <a href="mailto:ibrahemhejo3@gmail.com">
+                 ibrahemhejo3@gmail.com
                 </a>
               </p>
             </div>

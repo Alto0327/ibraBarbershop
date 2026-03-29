@@ -1,68 +1,66 @@
-import ServiceCard from './ServiceCard';
 import './Services.css';
 
 function Services() {
-  const services = [
+  const categories = [
     {
-      id: 1,
-      name: 'Classic Haircut',
-      description: 'Traditional fade, taper, or scissor cut with expert precision and finishing touches.',
-      price: '$30.97',
+      id: 'haircuts',
+      title: 'Haircuts',
+      services: [
+        { name: 'Classic Cut', price: '$35', description: 'Precision fade and finishing details.' },
+        { name: 'Skin Fade', price: '$42', description: 'High contrast fade with clean lines.' },
+        { name: 'Taper Fade', price: '$40', description: 'Subtle taper with sharp detail.' },
+      ],
     },
     {
-      id: 2,
-      name: 'Haircut & Beard Trim',
-      description: 'Complete grooming package with a stylish haircut and a well-defined beard trim.', 
-      price: '$40',
+      id: 'eyebrows',
+      title: 'Eyebrows',
+      services: [
+        { name: 'Eyebrow Cleanup', price: '$15', description: 'Neat shaping and grooming.' },
+        { name: 'Eyebrow Threading', price: '$15', description: 'Precise hair removal for clean lines.' },
+        { name: 'Eyebrow Shaping', price: '$20', description: 'Structured arch and outline.' },
+      ],
     },
     {
-      id: 3,
-      name: 'Buzz cut',
-      description: 'Low-maintenance, all-over clipper cut for a clean and sharp look.',
-      price: '$25',
+      id: 'beard',
+      title: 'Beard',
+      services: [
+        { name: 'Beard Trim', price: '$22', description: 'Shape and trim for a polished finish.' },
+        { name: 'Beard Line Up', price: '$28', description: 'Sharp edge defining and cleanup.' },
+        { name: 'Hot Towel Beard Service', price: '$35', description: 'Warm towel, conditioning, and styling.' },
+      ],
     },
     {
-      id: 4,
-      name: 'Beard Trim & Line Up',
-      description: 'Expert beard shaping and detailing with clean lines and a polished finish.',
-      price: '$20',
+      id: 'combo',
+      title: 'Combo',
+      services: [
+        { name: 'Haircut + Beard', price: '$60', description: 'Complete head-to-face groom.' },
+        { name: 'Haircut + Eyebrows', price: '$57', description: 'Precision styling and eyebrow sculpting.' },
+        { name: 'Full Grooming Package', price: '$95', description: 'Haircut, beard, eyebrows, and luxury finish.' },
+      ],
     },
-    {
-      id: 5,
-      name: 'Kids Fade Haircut',
-      description: 'Friendly and fun haircuts for children with patience and care.',
-      price: '$20',
-    },
-    {
-      id: 6,
-      name: 'Hot Towel Shave',
-      description: 'Classic straight razor shave with hot towel treatment and premium aftercare.',
-      price: '$25',
-    },
-    {
-      id: 7,
-      name: 'Senior Haircut',
-      description: 'Discounted haircuts for seniors with the same attention to detail and style.',
-      price: '$26',
-    },
-    {
-      id: 8,
-      name: 'Student Haircut',
-      description: 'Affordable haircuts for students with the same quality and attention to detail.',
-      price: '$27.43',
-    }
   ];
 
   return (
     <section id="services" className="services">
       <div className="services-container">
         <h2 className="sections-title">Our Services</h2>
-        <p className="section-subtitle">
-          Premium grooming services tailored to your needs
-        </p>
-        <div className="services-grid">
-          {services.map((service) => (
-            <ServiceCard key={service.id} service={service} />
+        <p className="section-subtitle">Organized packages for quick decision-making.</p>
+        <div className="service-category-grid">
+          {categories.map((category) => (
+            <div key={category.id} className="service-category-card">
+              <h3 className="category-title">{category.title}</h3>
+              <ul className="service-list">
+                {category.services.map((item) => (
+                  <li key={item.name} className="service-item">
+                    <div className="service-meta">
+                      <span className="service-name">{item.name}</span>
+                      <span className="service-price">{item.price}</span>
+                    </div>
+                    <p className="service-desc">{item.description}</p>
+                  </li>
+                ))}
+              </ul>
+            </div>
           ))}
         </div>
       </div>

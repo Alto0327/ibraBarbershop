@@ -20,8 +20,8 @@ function BookNow() {
           <div className="book-option">
             <div className="option-icon"></div>
             <h3>Call Us</h3>
-            <p>(555) 123-4567</p>
-            <a href="tel:+15551234567" className="option-link">
+            <p>(226) 898-3836</p>
+            <a href="tel:+12268983836" className="option-link">
               Call Now
             </a>
           </div>
@@ -29,8 +29,8 @@ function BookNow() {
           <div className="book-option">
             <div className="option-icon"></div>
             <h3>Email</h3>
-            <p>info@ibrabarbershop.com</p>
-            <a href="mailto:info@ibrabarbershop.com" className="option-link">
+            <p>ibrahemhejo3@gmail.com</p>
+            <a href="mailto:ibrahemhejo3@gmail.com" className="option-link">
               Send Email
             </a>
           </div>

@@ -4,21 +4,31 @@
 }
 
 .contact-container {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
+  padding: 0 1rem;
 }
 
 .contact-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
   margin-top: 3rem;
+}
+
+.contact-info,
+.contact-form {
+  flex: 1 1 45%;
+  min-width: 320px;
+  max-width: 520px;
 }
 
 .contact-info {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .info-item {
@@ -59,6 +69,14 @@
   text-decoration: underline;
 }
 
+.section-title {
+  color: #f8f5ef;
+}
+
+.section-subtitle {
+  color: rgba(255, 255, 255, 0.8);
+}
+
 .contact-form {
   background: rgba(18, 18, 18, 0.9);
   padding: 2rem;
@@ -75,7 +93,7 @@
 
 .form-group label {
   font-weight: 600;
-  color: #1a1a1a;
+  color: #f7f6f0;
   margin-bottom: 0.5rem;
   font-size: 0.95rem;
 }
@@ -83,13 +101,15 @@
 .form-group input,
 .form-group textarea {
   padding: 0.75rem 1rem;
-  border: 1px solid #ddd;
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 4px;
   font-family: inherit;
   font-size: 0.95rem;
   transition: all 0.3s ease;
-  background-color: #fafafa;
+  background-color: rgba(20, 20, 20, 0.9);
+  color: #f6f6f4;
 }
+
 
 .form-group input:focus,
 .form-group textarea:focus {

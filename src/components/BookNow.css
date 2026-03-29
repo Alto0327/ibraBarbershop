@@ -52,10 +52,11 @@
 .book-option h3 {
   font-size: 1.25rem;
   margin-bottom: 0.5rem;
+  color: #f8f5ef;
 }
 
 .book-option p {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.85);
   margin-bottom: 1rem;
 }
 

@@ -18,20 +18,6 @@ function About() {
     We’re building our name through quality work and real client satisfaction. Every haircut is treated with precision and care—because reputation isn’t claimed, it’s earned.
   </p>
 </div>
-  <div className="about-stats">
-  <div className="stat">
-    <h3 className="stat-number">3+</h3>
-    <p className="stat-label">Months Serving Hamilton</p>
-  </div>
-  <div className="stat">
-    <h3 className="stat-number">Growing</h3>
-    <p className="stat-label">Client Base</p>
-  </div>
-  <div className="stat">
-    <h3 className="stat-number">Focused</h3>
-    <p className="stat-label">On Quality</p>
-  </div>
-</div>
         </div>
 <div className="about-image">
   <img
