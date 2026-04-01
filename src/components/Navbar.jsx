@@ -63,7 +63,7 @@ function Navbar() {
             </a>
           </li>
           <li>
-            <a href="https://booksy.com/en-ca/19139_ibra-barbershop_barbershop_780237_hamilton#ba_s=sh_1" target='_blank' rel="noopener noreferrer" onClick={handleNavClick} className="nav-link nav-link-cta">
+            <a href="tel:+12268983836" target='_blank' rel="noopener noreferrer" onClick={handleNavClick} className="nav-link nav-link-cta">
               Book Now
             </a>
           </li>

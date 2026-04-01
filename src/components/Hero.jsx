@@ -8,7 +8,7 @@ function Hero() {
       <div className="hero-content" aria-label="Featured barber service">
         <h1 className="hero-title">Hamilton Barber Shop for Men’s Haircuts, Fades & Beard Trim</h1>
         <p className="hero-subtitle">Premium local barber in Hamilton for haircuts, fades and beard trims.</p>
-        <a href="#book" className="hero-cta" aria-label="Book now at Ibra Barbershop">Book Your Session</a>
+        <a href="tel:+12268983836" className="hero-cta" aria-label="Call Ibra Barbershop to book your session">Book Your Session</a>
       </div>
     </section>
   );

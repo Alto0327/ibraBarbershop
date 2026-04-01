@@ -7,9 +7,9 @@ function Services() {
       title: 'Haircuts',
       description: 'Barber-quality haircuts and fades for men in Hamilton, tuned to your personal style.',
       services: [
-        { name: 'Classic Cut', price: '$35', description: 'Hamilton barber classic with clean edges and polished finish.' },
-        { name: 'Skin Fade', price: '$42', description: 'Sharp skin fade with crisp transitions and haircut detail in Hamilton.' },
-        { name: 'Taper Fade', price: '$40', description: 'Modern taper fade designed for polished daily wear.' },
+        { name: 'Classic Cut', price: '$30.97', description: 'Hamilton barber classic with clean edges and polished finish.' },
+        { name: 'Kid\'s Cut', price: '$15', description: 'Specialized haircut for children with a fun and safe approach.' },
+        { name: 'Student Haircut', price: '$20.57', description: 'Discounted haircut for students with a focus on style and precision.' },
       ],
     },
     {
@@ -19,7 +19,6 @@ function Services() {
       services: [
         { name: 'Eyebrow Cleanup', price: '$15', description: 'Neat eyebrow cleanup to sharpen your profile.' },
         { name: 'Eyebrow Threading', price: '$15', description: 'Precise threading for crisp, natural brow lines.' },
-        { name: 'Eyebrow Shaping', price: '$20', description: 'Fine shaping for balanced proportions and clean style.' },
       ],
     },
     {
@@ -27,9 +26,8 @@ function Services() {
       title: 'Beard',
       description: 'Hamilton beard trim and lineup services that reinforce your haircut with a sharp, masculine finish.',
       services: [
-        { name: 'Beard Trim', price: '$22', description: 'Detailed beard trim for clean length and texture.' },
-        { name: 'Beard Line Up', price: '$28', description: 'Barber-precise edges and neckline cleanup.' },
-        { name: 'Hot Towel Beard Service', price: '$35', description: 'Relaxing warm towel, conditioning, and precision shading.' },
+        { name: 'Beard Trim and Line Up', price: '$15', description: 'Barber-precise edges and neckline cleanup.' },
+        { name: 'Hot Towel Shave', price: '$18.75', description: 'Relaxing warm towel, conditioning, and precision shading.' },
       ],
     },
     {
@@ -37,9 +35,9 @@ function Services() {
       title: 'Combo',
       description: 'Bundle your Hamilton barber visit with multiple services for a consistent premium grooming experience.',
       services: [
-        { name: 'Haircut + Beard', price: '$60', description: 'Complete package for haircut and beard trim in one appointment.' },
-        { name: 'Haircut + Eyebrows', price: '$57', description: 'Haircut with eyebrow grooming for a polished, refined look.' },
-        { name: 'Full Grooming Package', price: '$95', description: 'Haircut, beard, eyebrows, and a premium finish for full grooming control.' },
+        { name: 'Haircut + Beard', price: '$35', description: 'Complete package for haircut and beard trim in one appointment.' },
+        { name: 'Haircut + Eyebrows', price: '$35', description: 'Haircut with eyebrow grooming for a polished, refined look.' },
+        { name: 'Full Grooming Package', price: '$45', description: 'Haircut, beard, eyebrows, and a premium finish for full grooming control.' },
       ],
     },
   ];
