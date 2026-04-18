@@ -21,11 +21,11 @@
   max-width: 1200px;
   margin: 0 auto;
 }
-
 .service-category-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 380px));
   gap: 1.25rem;
+  justify-content: center;
 }
 
 .service-category-card {

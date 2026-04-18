@@ -1,5 +1,5 @@
 import './About.css';
-import background from '../assets/background.jpeg';
+import background from '../assets/background.JPG';
 
 function About() {
   return (
