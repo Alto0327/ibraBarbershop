@@ -58,6 +58,11 @@ function Navbar() {
             </a>
           </li>
           <li>
+            <a href="#hiring" onClick={handleNavClick} className="nav-link">
+              Hiring
+            </a>
+          </li>
+          <li>
             <a href="#contact" onClick={handleNavClick} className="nav-link">
               Contact
             </a>

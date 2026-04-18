@@ -1,0 +1,120 @@
+.hiring {
+  position: relative;
+  width: 100%;
+  min-height: 58vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+
+.hiring-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.65);
+  z-index: 1;
+}
+
+.hiring-content {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 720px;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.hiring-title {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 700;
+  margin-bottom: 1rem;
+  letter-spacing: -0.5px;
+}
+
+.hiring-copy {
+  font-size: 1rem;
+  line-height: 1.75;
+  max-width: 680px;
+  margin: 0 auto 1.5rem;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.hiring-list {
+  display: inline-grid;
+  gap: 0.75rem;
+  margin: 0 auto 2rem;
+  padding-left: 0;
+  list-style: none;
+  color: rgba(255, 255, 255, 0.88);
+  text-align: left;
+}
+
+.hiring-list li {
+  position: relative;
+  padding-left: 1.35rem;
+  font-size: 0.975rem;
+}
+
+.hiring-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.5rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  background: #d4af37;
+  border-radius: 50%;
+}
+
+.hiring-cta {
+  display: inline-block;
+  background-color: #d4af37;
+  color: #111;
+  border: none;
+  border-radius: 4px;
+  padding: 1rem 2.25rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background-color 0.25s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.hiring-cta:hover,
+.hiring-cta:focus-visible {
+  background-color: #e6c747;
+  transform: translateY(-2px);
+}
+
+.hiring-cta:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+  .hiring {
+    min-height: auto;
+    padding: 3rem 0;
+  }
+
+  .hiring-content {
+    padding: 3rem 1.5rem;
+  }
+
+  .hiring-list {
+    text-align: center;
+  }
+
+  .hiring-list li {
+    margin: 0 auto;
+    padding-left: 0;
+  }
+
+  .hiring-list li::before {
+    left: 50%;
+    transform: translateX(-50%);
+    top: -0.25rem;
+  }
+}
