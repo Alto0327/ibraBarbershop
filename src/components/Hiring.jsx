@@ -24,12 +24,11 @@ function Hiring() {
         </p>
 
         <button
-          type="button"
-          className="hiring-cta"
-          onClick={scrollToContact}
-          aria-label="Scroll to contact section to apply as a barber"
+            type="button"
+            className="hiring-cta"
+            onClick={() => window.open("https://form.jotform.com/261075916536058", "_blank")}
         >
-          Apply Now
+            Apply Now
         </button>
       </div>
     </section>

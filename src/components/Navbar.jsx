@@ -68,7 +68,7 @@ function Navbar() {
             </a>
           </li>
           <li>
-            <a href="tel:+12268983836" target='_blank' rel="noopener noreferrer" onClick={handleNavClick} className="nav-link nav-link-cta">
+            <a href="https://form.jotform.com/261075974528063" target='_blank' rel="noopener noreferrer" onClick={handleNavClick} className="nav-link nav-link-cta">
               Book Now
             </a>
           </li>
