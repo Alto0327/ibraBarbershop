@@ -18,7 +18,7 @@ function Hiring() {
     >
       <div className="hiring-overlay" />
       <div className="hiring-content">
-        <h2 id="hiring-heading" className="hiring-title">We’re Hiring Barbers</h2>
+        <h2 id="hiring-heading" className="hiring-title">We’re Hiring Barbers and Nail Technicians</h2>
         <p className="hiring-copy">
           Join a growing barbershop in Hamilton. Build your clientele and work in a professional, high-traffic environment.
         </p>
