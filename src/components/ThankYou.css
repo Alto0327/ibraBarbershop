@@ -1,0 +1,109 @@
+.thank-you-page {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-image: url('/background.JPG');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  overflow: hidden;
+}
+
+.thank-you-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.thank-you-content {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 680px;
+  text-align: center;
+  padding: 3rem 2rem;
+  border-radius: 16px;
+  background: rgba(16, 18, 22, 0.72);
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
+  animation: fadeIn 0.9s ease forwards;
+}
+
+.thank-you-content h1 {
+  margin: 0 0 1rem;
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  line-height: 1.05;
+  letter-spacing: -0.04em;
+  font-weight: 800;
+}
+
+.thank-you-copy {
+  margin: 0 auto 1rem;
+  max-width: 28rem;
+  font-size: 1.05rem;
+  line-height: 1.9;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.thank-you-note {
+  margin: 0 0 2rem;
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.thank-you-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2.25rem;
+  background-color: #d4af37;
+  color: #111111;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background-color 0.25s ease;
+}
+
+.thank-you-button:hover,
+.thank-you-button:focus-visible {
+  background-color: #e6c747;
+  transform: translateY(-2px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.22);
+}
+
+.thank-you-button:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 640px) {
+  .thank-you-page {
+    padding: 1.5rem;
+  }
+
+  .thank-you-content {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .thank-you-content h1 {
+    font-size: clamp(2.1rem, 8vw, 3rem);
+  }
+
+  .thank-you-copy {
+    font-size: 1rem;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
