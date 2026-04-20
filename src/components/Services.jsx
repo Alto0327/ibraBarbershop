@@ -35,7 +35,7 @@ function Services() {
       title: 'Combo',
       description: 'Bundle your Hamilton barber visit with multiple services for a consistent premium grooming experience.',
       services: [
-        { name: 'Haircut + Beard', price: '$35', description: 'Complete package for haircut and beard trim in one appointment.' },
+        { name: 'Haircut + Beard', price: '$40', description: 'Complete package for haircut and beard trim in one appointment.' },
         { name: 'Haircut + Eyebrows', price: '$35', description: 'Haircut with eyebrow grooming for a polished, refined look.' },
         { name: 'Full Grooming Package', price: '$45', description: 'Haircut, beard, eyebrows, and a premium finish for full grooming control.' },
       ],
