@@ -35,8 +35,8 @@ function Footer() {
           <div className="footer-section">
             <h4 className="footer-subtitle">Hours</h4>
             <p className="footer-text small">
-              Mon-Sat: 9:00 AM - 7:00 PM<br />
-              Sun: 11:00 AM - 6:00 PM
+              Mon-Sat: 9:00 AM - 9:00 PM<br />
+              Sun: 9:00 AM - 7:00 PM
             </p>
           </div>
 
