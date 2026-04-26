@@ -8,8 +8,9 @@ function Services() {
       description: 'Barber-quality haircuts and fades for men in Hamilton, tuned to your personal style.',
       services: [
         { name: 'Classic Cut', price: '$30', description: 'Hamilton barber classic with clean edges polished finished and topped off with a hairwash and facemask ' },
-        { name: 'Kid\'s Cut', price: '$15', description: 'Specialized haircut for children with a fun and safe approach.' },
-        { name: 'Student Haircut', price: '$20', description: 'Discounted haircut for students with a focus on style and precision.' },
+        { name: 'Kid\'s Cut', price: '$20', description: 'Specialized haircut for children with a fun and safe approach.' },
+        { name: 'Student Haircut', price: '$27', description: 'Discounted haircut for students with a focus on style and precision.' },
+        { name:  'Buzz cut', price: '$25', description: 'Low-maintenance buzz cut for a clean, sharp look.' },
       ],
     },
     {
