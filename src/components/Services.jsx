@@ -18,7 +18,6 @@ function Services() {
       title: 'Eyebrows',
       description: 'Detailed eyebrow grooming to complete your look after a Hamilton haircut or beard trim.',
       services: [
-        { name: 'Eyebrow Cleanup', price: '$15', description: 'Neat eyebrow cleanup to sharpen your profile.' },
         { name: 'Eyebrow Threading', price: '$15', description: 'Precise threading for crisp, natural brow lines.' },
       ],
     },
