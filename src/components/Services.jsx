@@ -27,8 +27,8 @@ function Services() {
       title: 'Beard',
       description: 'Hamilton beard trim and lineup services that reinforce your haircut with a sharp, masculine finish.',
       services: [
-        { name: 'Beard Trim and Line Up', price: '$15', description: 'Barber-precise edges and neckline cleanup.' },
-        { name: 'Hot Towel Shave', price: '$18', description: 'Relaxing warm towel, conditioning, and precision shading.' },
+        { name: 'Beard Trim and Line Up', price: '$20', description: 'Barber-precise edges and neckline cleanup.' },
+        { name: 'Hot Towel Shave', price: '$25', description: 'Relaxing warm towel, conditioning, and precision shading.' },
       ],
     },
     {
