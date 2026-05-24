@@ -14,14 +14,6 @@ function Services() {
       ],
     },
     {
-      id: 'eyebrows',
-      title: 'Eyebrows',
-      description: 'Detailed eyebrow grooming to complete your look after a Hamilton haircut or beard trim.',
-      services: [
-        { name: 'Eyebrow Threading', price: '$15', description: 'Precise threading for crisp, natural brow lines.' },
-      ],
-    },
-    {
       id: 'beard',
       title: 'Beard',
       description: 'Hamilton beard trim and lineup services that reinforce your haircut with a sharp, masculine finish.',
@@ -41,14 +33,23 @@ function Services() {
       ],
     },
      {
-      id: 'nails',
-      title: 'Nails',
+      id: 'braids',
+      title: 'Braids',
       description: 'Hamilton nail care services to complement your grooming routine with clean, polished nails.',
       services: [
-        { name: 'Regular Manicure', price: '$25', description: 'Basic nail care including trimming and shaping.' },
-        { name: 'Gel Shellac', price: '$20', description: 'Long-lasting gel polish for a sleek, durable finish.' },
-        { name: 'Regular Polish', price: '$10', description: 'Classic nail polish application for a quick and stylish look.' },
-        { name: 'Gel and False Nails', price: '$35', description: 'Full gel manicure with false nail application for added length and style. Designs available for additional cost.' },
+        { name: 'Knotless Braid Jumbo', price: '$80', description: '' },
+        { name: 'Knotless Braid', price: '$110', description: '' },
+        { name: 'Knotless Braid', price: '$140', description: '' },
+        { name: 'Boho Knotless Braid Jumbo', price: '$120', description: '' },
+        { name: 'Boho Knotless Braid Medium', price: '$150', description: '' },
+        { name: 'Boho Knotless Braid Small', price: '$180', description: ''},
+    ]},
+    {
+      id: 'eyebrows',
+      title: 'Eyebrows',
+      description: 'Detailed eyebrow grooming to complete your look after a Hamilton haircut or beard trim.',
+      services: [
+        { name: 'Eyebrow Threading', price: '$15', description: 'Precise threading for crisp, natural brow lines.' },
       ],
     },
   ];
