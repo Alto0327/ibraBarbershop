@@ -52,7 +52,17 @@ function Services() {
         { name: 'Eyebrow Threading', price: '$15', description: 'Precise threading for crisp, natural brow lines.' },
       ],
     },
-  ];
+         {
+      id: 'nails',
+      title: 'Nails',
+
+      description: 'Hamilton nail care services to complement your grooming routine with clean, polished nails.',
+      services: [
+        { name: 'Regular Manicure', price: '$25', description: 'Basic nail care including trimming and shaping.' },
+        { name: 'Gel Shellac', price: '$20', description: 'Long-lasting gel polish for a sleek, durable finish.' },
+        { name: 'Regular Polish', price: '$10', description: 'Classic nail polish application for a quick and stylish look.' },
+        { name: 'Gel and False Nails', price: '$35', description: 'Full gel manicure with false nail application for added length and style. Designs available for additional cost.' },
+  ],},]
 
   return (
     <section id="services" className="services" aria-labelledby="services-heading">

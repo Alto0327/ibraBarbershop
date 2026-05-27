@@ -15,7 +15,7 @@ function BookNow() {
         <p className="book-subtitle">
           Book your appointment today and experience premium barbering
         </p>
-        
+
         <div className="book-options">
           <div className="book-option">
             <div className="option-icon"></div>
